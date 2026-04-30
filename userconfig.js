@@ -3,7 +3,7 @@
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = latte;
-const preferredDarkTheme = mocha;
+const preferredDarkTheme = latte;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -44,7 +44,7 @@ const default_configuration = {
   tabs: [
     {
       background_url: "src/img/banners/banner_19.gif",
-      name: "#",
+      name: "♡",
       categories: [
         {
           links: [
@@ -101,7 +101,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "#",
+      name: "♡",
       background_url: "src/img/banners/banner_14.gif",
       categories: [
         {
@@ -127,7 +127,7 @@ const default_configuration = {
             {
               name: "shikimori",
               url: "https://shikimori.io/knighto/list/anime?mylist=planned&order=ranked",
-              icon: "shikimori",
+              icon: "torii",
               icon_color: palette.green,
             },
             {
