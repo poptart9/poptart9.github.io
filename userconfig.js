@@ -63,6 +63,7 @@ const default_configuration = {
               name: "wanikani",
               url: "https://www.wanikani.com/dashboard",
               icon: "grid-pattern",
+            },
             {
               name: "pin",
               url: "https://ru.pinterest.com/homefeed/",
