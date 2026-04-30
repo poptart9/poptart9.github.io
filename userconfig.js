@@ -44,6 +44,7 @@ const default_configuration = {
   tabs: [
     {
       background_url: "src/img/banners/banner_19.gif",
+      name: "♡",
       categories: [
         {
           links: [
@@ -100,7 +101,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "^_^",
+      name: "♡",
       background_url: "src/img/banners/banner_14.gif",
       categories: [
         {
