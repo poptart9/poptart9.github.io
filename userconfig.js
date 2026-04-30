@@ -19,8 +19,8 @@ const default_configuration = {
   },
   additionalClocks: [
     {
-      label: "RU",
-      timezone: "Europe/Moscow",
+      label: "UTC",
+      timezone: "UTC",
       format: "h:i",
       icon_color: palette.peach,
     },
@@ -52,17 +52,21 @@ const default_configuration = {
               name: "raindrop",
               url: "https://app.raindrop.io",
               icon: "droplet-bolt",
-              icon_color: palette.green,
+              icon_color: palette.white,
             },
             {
               name: "jisho",
               url: "https://jisho.org/",
               icon: "vocabulary",
+              icon_color: palette.green,
+
             },
             {
               name: "wanikani",
               url: "https://www.wanikani.com/dashboard",
               icon: "grid-pattern",
+              icon_color: palette.blue,
+
             },
             {
               name: "pin",
